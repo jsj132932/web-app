@@ -7,7 +7,6 @@ const path = require("path");
 const { createServer } = require("http");
 const { auth } = require("express-openid-connect");
 
-
 const {
   checkUrl,
   APP_URL, // Public URL for this app
